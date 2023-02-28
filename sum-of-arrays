@@ -1,0 +1,105 @@
+#UBA
+# a = []
+# def count_of_x():
+#     def he():
+#         for i in "dfxxxgxcx":
+#             if i == "x":
+#                 a.append(i)
+#         print(len(a))
+#     return he()
+
+# count_of_x()
+
+#END OF UBA
+
+# Given two integer numbers return 
+# their product only if the product is 
+# equal to or lower than 1000, else return their sum.
+
+# def question_1(x, y):
+#     if x * y <= 1000:
+#         print("The result is", x * y)
+#     else:
+#         print("The result is", x + y)
+
+
+# question_1(40, 30)
+
+# Exercise 2: Write a program to iterate the first 10 numbers and in each iteration, print the sum of the current and previous number.
+
+
+
+# def question_2():
+#     a = 0;
+#     for i in range(10):
+#         b = i+a;
+#         c = b-i;
+#         print('Current Number', i, "Previous Number", c, "Sum", b)
+#         a = i
+
+# question_2()
+
+
+# Exercise 3: Write a program to accept a string from the user and display 
+# characters that are present at an even index number.
+# For example, str = "pynative" so you should display ‘p’, ‘n’, ‘t’, ‘v’.
+
+# def question_3(x):
+#     for i in range(len(x)):
+#         if i % 2 == 0:
+#             print(x[i])
+
+# question_3("love")
+
+
+# Exercise 4: Remove first n characters from a string
+# Write a program to remove characters from a 
+# string starting from zero up to n and return a new string.
+
+# For example:
+
+# remove_chars("pynative", 4) so output must be tive. Here we need to remove first four characters from a string.
+# remove_chars("pynative", 2) so output must be native. Here we need to remove first two characters from a string.
+# Note: n must be less than the length of the string.
+
+# def question_4(x,y):
+#     print(x[y:])
+
+# question_4("pynative", 4)
+
+
+
+# Exercise 5: Check if the first and last number of a list is the same
+# Write a function to return True if the first and last number of a given 
+# list is same. If numbers are different then return False.
+# Given:
+# numbers_x = [10, 20, 30, 40, 10]
+# numbers_y = [75, 65, 35, 75, 30]
+# Expected Output:
+# Given list: [10, 20, 30, 40, 10]
+# result is True
+# numbers_y = [75, 65, 35, 75, 30]
+
+# def question_5(x):
+#     print(x[0] == x[-1])
+
+# question_5([1,2,3,4,5,1])
+
+
+# Exercise 6: Display numbers divisible by 5 from a list
+# def question_6(x):
+#     for i in x:
+#         if i % 5 == 0:
+#             print(i)
+
+# question_6([10,12,14,16,20])
+
+# Exercise 7: Return the count of a given substring from a string
+def question_7(x):
+    x.split().join()
+    a = []
+    for i in x:
+        a.append(i)
+    print(a)
+
+question_7("emma is the only emma in our class emma")
