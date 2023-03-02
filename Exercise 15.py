@@ -8,6 +8,7 @@ def Exercise_16(base, exp):
         s = c[-1] + 1
         base *= s
     print(base)
+    print(list(range(b)))
 
 Exercise_16(2, 5)
 
